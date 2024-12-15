@@ -11,7 +11,7 @@ function Services() {
         <h2 className="text-5xl font-bold text-[#191a15] mb-7 text-center pr-[900px]">Our Services</h2>
         <div className="flex justify-center gap-20 w-full">
   
-          <div className="flex items-center justify-around w-[550px] h-72 rounded-45px bg-black border border-gray-950 p-6 shadow-lg hover:shadow-xl transition-all duration-500 ease-in-out">
+          <div className="flex items-center justify-around w-[600px] h-72 rounded-45px bg-black border border-gray-950 p-6 shadow-lg hover:shadow-xl transition-all duration-500 ease-in-out">
             <div className='flex flex-col gap-20'>
               <div className='bg-black flex flex-col text-4xl font-medium'>
                 <div className="text-2xl font-semibold bg-white w-fit rounded-lg px-[10px]">App</div>
@@ -19,7 +19,7 @@ function Services() {
               </div>
               <button className="bg-transparent">
                 <div className='text-white flex items-center gap-5 text-lg font-normal'>
-                  <div className='bg-white flex items-center justify-center rounded-full w-10 h-10 transition-all duration-300 ease-in-out'>
+                  <div className='bg-white flex items-center justify-center rounded-full w-10 h-10 duration-300 ease-in-out hover:scale-110 transition-transform'>
                     <img src={redirect_fill} alt='' className='max-w-full h-auto'/>
                   </div>
                   Learn More
@@ -31,7 +31,7 @@ function Services() {
               </div>
           </div>
 
-          <div className="flex items-center justify-around w-[550px] h-72 rounded-45px bg-hover-blue border border-b-4 border-[#191a23] p-6 shadow-lg hover:shadow-xl transition-all duration-500 ease-in-out">
+          <div className="flex items-center justify-around w-[600px] h-72 rounded-45px bg-hover-blue border border-b-4 border-[#191a23] p-6 shadow-lg hover:shadow-xl transition-all duration-500 ease-in-out">
             <div className='flex flex-col gap-20'>
               <div className='flex flex-col text-4xl font-medium'>
                 <div className="text-2xl font-semibold bg-white w-fit rounded-lg px-[10px]">Web</div>
@@ -39,7 +39,7 @@ function Services() {
               </div>
               <button className="bg-transparent">
                 <div className='text-white flex items-center gap-5 text-lg font-normal'>
-                  <div className='bg-white flex items-center justify-center rounded-full w-10 h-10 transition-all duration-300 ease-in-out'>
+                  <div className='bg-white flex items-center justify-center rounded-full w-10 h-10 duration-300 ease-in-out hover:scale-110 transition-transform'>
                     <img src={redirect_fill} alt='' className='max-w-full h-auto'/>
                   </div>
                   Learn More
