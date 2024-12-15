@@ -4,7 +4,7 @@ import logo2 from '../assets/logo2.png';
 
 function Navbar() {
   return (
-    <nav className=" sticky top-0 shadow-sm shadow-black-500/20 bg-white py-4 px-20">
+    <nav className="sticky top-0 shadow-sm shadow-black-500/20 bg-white py-4 px-20 z-50">
       <div className="container mx-auto flex items-center justify-between">
         <div className="flex items-center space-x-3">
           <img src={logo2} alt="Logo 2" className="h-14 w-16 object-contain" />

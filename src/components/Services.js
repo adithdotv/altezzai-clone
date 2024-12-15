@@ -6,12 +6,12 @@ import redirect from '../assets/redirect.svg'
 
 function Services() {
   return (
-    <section className='py-5'>
+    <section className='py-16'>
       <div className="flex flex-col pb-[60px]">
         <h2 className="text-5xl font-bold text-[#191a15] mb-7 text-center pr-[900px]">Our Services</h2>
         <div className="flex justify-center gap-20 w-full">
   
-          <div className="flex items-center justify-around w-[600px] h-72 rounded-45px bg-black border border-gray-950 p-6 shadow-lg hover:shadow-xl transition-all duration-500 ease-in-out">
+          <div className="flex items-center justify-around w-[550px] h-72 rounded-45px bg-black border border-gray-950 p-6 shadow-lg hover:shadow-xl transition-all duration-500 ease-in-out">
             <div className='flex flex-col gap-20'>
               <div className='bg-black flex flex-col text-4xl font-medium'>
                 <div className="text-2xl font-semibold bg-white w-fit rounded-lg px-[10px]">App</div>
